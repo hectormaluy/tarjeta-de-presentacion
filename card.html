@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+  <title>Tarjeta de presentacio&#769;n</title>
+  <style>
+    body {
+      background: grey;
+    }
+    section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: 400px;
+      height: 550px;
+      background: #4682B4;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 20px;
+      position: relative;
+      border: thick solid white;
+    }
+    .card img {
+      width: 100%;
+    }
+    .card p {
+      text-align: center;
+      color: #fff;
+      font-family: 'Almarai', sans-serif;
+    }
+   
+    .selfie {
+      overflow: hidden;
+      width: 40%;
+      position: absolute;
+      top: 20%;
+      left: 28%;
+      border-radius: 50%;
+      border: thick solid white;
+    }
+    .selfie img {
+      width: 100%;
+    }
+    article {
+      margin-top: 25%;
+    }
+    article hr {
+      width: 90%;
+    }
+    #name {
+      font-size: 140%;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+    .container img {
+      width: 50px;
+      margin: 10px;
+      margin-top: 25px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="card">
+      <img src="./imagenes/chessboard.png" alt="ChessBoard">
+      <div class="selfie">
+        <img src="./imagenes/selfie.png" alt="selfie">
+      </div>
+      <article>
+        <p id="name">Hector Maluy Fernandez</p>
+        <p>Ajedrecista y Programador</p>
+        <hr>
+        <p>Contactame en mis redes sociales:</p>
+        <div class="container">
+          <a href="https://www.chess.com/member/toreohm" target="_blank"><img src="./imagenes/chesscom-logo.png" alt="chess"></a>
+          <a href="https://github.com/hectormaluy" target="_blank"> <img src="./imagenes/github-logo.png" alt="github profile"></a>
+          <a href="https://twitter.com/hectorgeek" target="_blank"><img src="./imagenes/twitter-logo.png" alt="twitter profile"></a>
+        </div>  
+      </article>
+    </div>
+  </section>  
+</body>
+</html>
